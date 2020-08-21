@@ -21,8 +21,8 @@ description:
 library
 
   exposed-modules:
-    Data.CBRef
     Data.CBMVar
+    Data.CBRef
 
   build-depends:
       base >= 4.0 && < 5.0
