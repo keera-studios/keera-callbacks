@@ -2,7 +2,7 @@
 -- License     : BSD3
 -- Maintainer  : support@keera.co.uk
 
-cabal-version:       >=1.2
+cabal-version:       >= 1.2
 build-type:          Simple
 
 name:                keera-callbacks
