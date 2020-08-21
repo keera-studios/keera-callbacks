@@ -2,30 +2,30 @@
 -- License     : BSD3
 -- Maintainer  : support@keera.co.uk
 
-Name:                keera-callbacks
-Version:             0.1
-Synopsis:            Mutable memory locations with callbacks
-Description:         Mutable memory locations with handlers that are executed when the
+name:                keera-callbacks
+version:             0.1
+synopsis:            Mutable memory locations with callbacks
+description:         Mutable memory locations with handlers that are executed when the
                      shared values are modified.
-License:             BSD3
-License-file:        LICENSE
-Author:              Ivan Perez
-Maintainer:          ivan.perez@keera.es
-Category:            Concurrency
+license:             BSD3
+license-file:        LICENSE
+author:              Ivan Perez
+maintainer:          ivan.perez@keera.es
+category:            Concurrency
 
-Build-type:          Simple
+build-type:          Simple
 
-Cabal-version:       >=1.2
+cabal-version:       >=1.2
 
 
-Library
+library
 
-  Exposed-modules:     Data.CBRef
+  exposed-modules:     Data.CBRef
                        Data.CBMVar
 
   hs-source-dirs: src/
 
   ghc-options: -Wall -fno-warn-unused-do-bind -O2
 
-  Build-depends: base >= 4.0 && < 5.0
+  build-depends: base >= 4.0 && < 5.0
                , mtl
